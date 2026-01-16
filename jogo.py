@@ -41,7 +41,6 @@ num_cartas = linhas * colunas
 lista_ids = list(range(num_cartas // 2)) * 2
 random.shuffle(lista_ids)
 
-
 cartas_viradas = [False] * num_cartas
 cartas_escolhidas = [] 
 timer_espera = 0 
